@@ -1,0 +1,631 @@
+/* common css start */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans&family=Ubuntu:wght@300;400;500&display=swap');
+:root{
+    --mainfont:'Ubuntu', sans-serif;
+    --secondaryfont:'Abril Fatface', cursive;
+    --thirtfont:'Open Sans', sans-serif;
+    --primarycolor:#0f2f44;
+    --secondarycolor:#fefefe;
+    --lastcolor:#ffc712;}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+a{
+text-decoration: none;}
+
+ul{
+list-style: none;}
+
+.container{width: 1170px;
+margin: auto;}
+
+.row{
+display: flex;
+flex-wrap: wrap;}
+
+.align-center{
+    align-items: center;}
+
+body{
+font-family: var(--mainfont);}
+
+/* common css end */
+
+/* welcome opening  divided start */
+.header{
+    background-color: var(--primarycolor);
+    padding: 19px;}
+
+.header .welcome{
+color: var(--lastcolor);
+width: 50%;}
+
+.container .opening{
+color: var(--secondarycolor);
+width: 50%; 
+text-align: right;}
+/* welcome opening  divided end */
+
+
+/* nav divided start  */
+nav .row{
+    justify-content: space-between;}
+
+nav .menu li a{
+    font-size: 16px;
+color: var(--primarycolor);
+font-weight: 500;
+padding: 40px 19px;
+display: block;
+transition: 300ms;
+text-transform: capitalize;}
+
+nav .menu li{
+    display: inline-block;}
+    /* nav divides end */
+
+
+/*(nav .menu li:hover > a) start  */
+    
+nav .menu li:hover > a{
+    color: #ffc712;
+    background-color: #fff9e6;}
+
+.align-center{
+    align-items: center;}
+
+nav .search{
+    border-radius: 50%;
+    background-color: var(--secondarycolor);
+    width: 40px;
+    height: 40px;
+    color: var(--primarycolor);
+background-color: transparent;}
+
+/*( menu width  and logo width start)  divided*/
+   nav .menu{
+    width: 70%;
+    text-align: right;}
+    nav .logo{
+        width: 30%;}
+/*( menu width  and logo width end) divided */
+
+
+nav .submenu {
+    position: absolute;}
+nav .submenu li {
+    display: block;}
+/* nav end */
+
+
+
+
+
+/* <!-- sucess start --> */
+#success .heading{
+  margin-top: 105px;}    
+
+#success{
+    background-image: url(../image/Bizzency-\(1\)-Recovered-Recovered.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0px;}
+
+
+#success .heading{
+    display: inline-block;
+    padding-right: 1056px;
+    padding-left: 0px;}
+
+#success h2{
+    font-size: 50px;
+    font-weight: 300;
+    font-family: var(--mainfont);
+    text-transform: uppercase;
+    color: var(--primarycolor);
+    line-height: 0;}
+
+#success h1{
+    font-size: 80px;
+    font-weight: 300;
+   font-family: var(--secondaryfont);
+    text-transform: capitalize;
+    color: var(--primarycolor);
+    padding-bottom: 10px;}
+
+#success h3{
+    font-weight: 400;
+font-family: var(--mainfont);
+color: #8484bf;
+font-size: 32px;
+letter-spacing: 7px;}
+
+#success p{
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--primarycolor);}
+
+
+/*   <!-- a tag  border radius start --> */
+.heading a{
+background-color: #8484bf;
+border-radius: 5px;
+color: white; 
+line-height: 10;
+padding: 20px 24px;}
+    
+#success .next a{
+text-align: center;
+ background-color: var(--secondarycolor);
+color: #8484bf ;
+border-radius: 50%; 
+box-shadow: 25px red 5 0;
+z-index: 1;
+transition: calc(5);}
+ #success .next{
+ display: inline-block;
+padding: 0 20px;}
+/*  <!-- a tag  border radius end --> */
+
+/* first a tag hover start */
+.heading:hover a{
+    background-color: #ffc712;
+    color: aqua;}
+     /* first a tag hover end */ 
+
+  /* second a tag hover start */   
+.heading .next:hover a{
+    background-color: #8484bf;
+    color: blue;}
+      /* second a tag hover end */  
+ /* <!-- sucess end --> */
+
+
+
+
+ /* <!-- about start --> */
+/* (#about) width divided start */
+#about .heading{  
+width: 30%;
+margin-top: 100px;
+}
+
+#about image{
+
+width: 70%;
+
+margin-top: 100px;
+}
+
+/* (#about) width divided end */
+
+#about h3{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: var(--mainfont);
+    color: var(--primarycolor);}
+
+#about h1{
+    font-family: var(--secondaryfont);
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--primarycolor);}
+
+#about p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--thirtfont);}
+
+#about{
+    text-align: left;}
+ #about img{
+    margin-top: 100px;
+margin-left: 150px;} 
+#about h4{
+    line-height: 25px;
+    margin: 0 29px;
+    color: var(--primarycolor);}
+
+   /* (#about .know a)  a tag start */
+#about .know a{
+  background-color: #ffc712;
+  color: black;
+  font-size: 20px;
+  font-family: var(--mainfont);
+  font-weight: 500;}
+  /* (#about .know a) a tag end end */
+
+/*(#about .read a) start  */
+#about .read a{
+background-color: aqua;
+    color: black;}
+
+#about  .read{
+    display: inline-block;
+    padding-left: 20px;}
+    /*(#about .read a) start  */   
+ /* <!-- about end --> */
+
+ 
+ /* skill start */
+ /*(skill .image)  (#skill .content) divided start*/
+#skill .image{
+    width: 50%;}
+
+#skill .content{
+ width: 50%;
+ text-align: right;}
+ /*(skill .image)  (#skill .content) divided end*/
+
+
+  /*(#skill .image img) screenshot img center  start*/
+#skill .image img{
+width: 100%;}
+  /*(#skill .image img) screenshot img center end */
+
+
+
+#skill .heading{
+    margin-top: 105px;}
+
+.heading h1{
+    margin-bottom: 26px;}
+ /* skill end */
+
+/* service strt */
+#service .heading{
+    text-align: center;}
+
+/* service box div divided ( #service .box) (.align-center) (#service .image) (#service .heading1)  (#service)*/
+
+#service .box{
+    width: calc(33.33% - 30px);
+    margin: 15px;
+    background-color: #e9e9e9;  
+    position: relative;}
+
+.align-center{
+text-align: left;}
+
+#service .image{
+    width: 30%;}
+
+#service .heading1{
+    width: 70%;
+    padding:25px;}
+
+#service{
+    width: 100%;}
+
+/* service box (div) divided ( #service .box) (.align-center) (#service .image) (#service .heading1)  (#service)*/
+
+/* service end */
+
+
+
+.overlay{
+    background-color:#0f2f44;
+    width: 100%;
+    height: 100%;
+   padding: 40px 0 0 0;
+    text-align: center;
+    position:absolute;
+    transition: 0.3s;
+  color: white;
+  transform: scale(0);
+}
+
+.box:hover .overlay{
+    transform: scale(1);}
+
+.overlay a{
+    position: absolute;
+    bottom: -20px;
+    left: 0%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--lastcolor);
+    text-align: center;
+    line-height: 40px;
+    transform: translateX(-50%);
+    transition: 0.25s;
+    transition-delay: 0.28s;}
+
+.box:hover .overlay a{
+    left: 50%;}
+
+
+/* <!-- portfolio start --> */
+
+
+/* portfolio div divided (.icon) ( #portfolio.heading) (.icon img)
+#portfolio  */
+
+.icon{
+    width: calc(33% - 60px);
+    margin: 30px;
+    position: relative;}
+#portfolio{
+    margin:  100px 100px;
+    display: block;}
+
+    #portfolio .heading{
+        text-align: center;}
+
+.icon img{
+    width: 100%;}
+
+/* portfolio div divided (.icon) ( #portfolio.heading) (.icon img)
+#portfolio  */
+
+
+
+
+
+
+/* overlay start */
+
+/* (.icon .overlay1) and (.icon:hover .overlay1)full hover */
+.icon .overlay1{
+    position: absolute;
+    bottom: 0;
+  background-color: var(--secondarycolor);
+    width: 100%;
+    padding: 32px 0;
+    text-align: center;
+    color: var(--primarycolor);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--mainfont);
+    text-transform: capitalize;
+    transform: scaleY(0);
+    transition: 0.3s;
+    transform-origin: bottom;
+    opacity: 0;}
+
+.icon:hover .overlay1{
+    opacity: 1;
+    transform: scaleY(1);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+    /* (.icon .overlay1) and (.icon:hover .overlay1) full hover
+ /* overlay end */
+
+/* my idea a tag start */
+/*.myidea a hover start  */
+.myidea a{
+   background-color: #fefefe;
+    border-radius: 6px;
+    margin-top: 60px;
+    display: inline-block;
+    width: 139px;
+    color: var(--primarycolor);
+    padding: 10px 0;
+    text-transform: capitalize;
+    font-family:var(--mainfont) ;
+    font-size: 20px;
+    font-weight: 500;
+transition: 0.3s;
+inset: 0;
+opacity: 0;
+transform: scaleX(0);}
+ 
+ .myidea{
+     width: 100%;
+ text-align: center;}
+ 
+ /* my idea a tag end */
+
+.myidea:hover a{
+  background-color: var(--lastcolor);
+    inset: 1;
+    opacity: 1;
+    transform: scaleX(1);
+    transform-origin: 5;}
+
+/* (.myidea a) and (myidea) a= tag  create only   */
+
+/* (.myidea a) (.myidea:hover a) hover  complete*/
+
+
+/* .myidea a hover end */
+
+/* <!-- portfolio end --> */
+/*<!-- testimonial start -->  */
+
+
+
+.pain5{
+  width: calc(50% - 30px);
+   margin: 15px;
+   background-color: #e9e9e9;
+}
+#testimonial img{
+    width: 40%;
+}
+
+.text5{
+    width:60%;
+margin-top: 10px;
+padding: 25px;}
+
+#testimonial{
+    width: 100%;
+    display: inline-block;
+    padding: 0px 100px;}    
+
+.aligncenter{
+    margin: 100px 100px;}
+
+#testimonial .heading{
+    text-align: center;
+    margin-bottom: 60px;}
+
+/* testimonial end */
+
+/* latest start */
+.blog{
+    width: calc(33% - 30px);
+    margin: 15px;
+    position: relative;}
+   #latest h2{
+    font-family: var(--secondaryfont);
+    font-size: 32px;
+    color: var(--primarycolor);
+   }
+
+.heading{
+    margin: 50px;
+}
+
+#latest{
+    width: 100%;
+    display: block;
+margin-top: 20px;}
+
+#latest .heading{
+    text-align: center;
+    margin-top: 100px;}
+
+
+.heading .h5{
+    background-color: #ffc712;
+}
+
+
+.blog .write{
+    margin-top: 20px;}
+.blog p{
+    margin-bottom: 20px;
+    color: var(--primarycolor);}
+
+.blog h5{
+    margin-bottom: 27px;
+}
+
+
+#latest .overlay5 a{
+    color: #e9e9e9;
+    background-color: #0f2f44;
+    bottom: 1;
+    left: 1;
+    transform: scaleX(-1);
+    text-transform: capitalize
+    ;
+
+}
+#latest .overlay5:hover a{
+    transform: scaleX(-1);
+    left: -22;
+    bottom: 0;
+    background-color: #ffc712;
+    color:white ;
+}
+
+
+.card .overlay5{
+    background-color: #0f2f44;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: -22;
+    bottom: 0;
+    transform: scaleY(1);
+    padding: 0px 20px;
+    transition: 0.3s;}
+
+
+.blog  .card:hover .overlay5{
+    transform: scaleY(0);
+    bottom: 1;
+    left: 1;
+    width: 50px;
+    padding: 40px 22px;
+    padding-left: 25px;}
+
+.overlay5{
+    color: #e9e9e9;}
+
+
+.overlay5 h5{
+    margin-top: 10px;
+}
+.b a{
+  background-color: #ffc712;
+    border-radius: 6px;
+    margin-top: 60px;
+    display: inline-block;
+    margin-left: 375%;
+    width: 139px;
+    color: var(--primarycolor);
+    padding: 10px 19px;
+    text-transform: capitalize;
+    font-family: var(--mainfont);
+    font-size: 20px;
+    font-weight: 500;}
+
+
+.b:hover a{
+    background-color: aqua;
+}
+
+
+/* <!-- latest end --> */
+
+/* para start */
+
+#para{
+    margin-top: 100px;
+}
+
+.box10 .verypain{
+    width: calc(25% - 30px);
+margin: 15px;
+}
+
+.box10 p{
+    display: inline-block;
+    width: 122%;}
+
+.verypain i{
+    font-size: 30px;
+    margin: 20px 0px;
+}
+
+.verypain h2{
+    margin-left: 70px;
+}
+  
+
+.verypain li{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.verypain   menu{
+    margin-left: 70px;
+}
+
+.verypain .image{
+
+    width: 130%;
+    margin:30px ;
+    display: block;
+}
+
+.verypain li{
+    line-height: 14px;
+    text-transform: capitalize;
+}
+.verypain ul li i{
+    background-color: #ffc712;
+    line-height: 1px;
+}
+
+.verypain a{
+   color: black;
+}
+/* para end */
